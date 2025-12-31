@@ -1,5 +1,5 @@
 # awsresurcemgmt_lambda
-++++++++++++++++++++++++++
+
 Create IAM role - EC2-ECS-Cleanup-Role
 Attach Policy - cost_optimization_lambda
 Add IAM Permissions - cost_optimization_lambda
