@@ -1,6 +1,12 @@
 # awsresurcemgmt_lambda
 ++++++++++++++++++++++++++
-IAM Permissions - cost_optimization_lambda
+Create IAM role - EC2-ECS-Cleanup-Role
+Attach Policy - cost_optimization_lambda
+Add IAM Permissions - cost_optimization_lambda
+Create labmda function with the code.
+Use event bridg to trigger lambda
+Add scheduler.amazonaws.com to IAM role trust policy
+
 +++++++++++++++++++++
 {
     "Version": "2012-10-17",
