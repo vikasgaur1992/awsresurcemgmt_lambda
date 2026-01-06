@@ -2,7 +2,7 @@ import boto3
 from datetime import datetime, timedelta
 
 # --- 1. CONFIGURATION ---
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:474727059017:NewResourceNotification' 
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:accountid:NewResourceNotification' 
 CPU_THRESHOLD = 5.0      
 DAYS_LOOKBACK = 10       
 EXCLUDE_TAG_KEY = 'stop' 
